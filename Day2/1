@@ -1,0 +1,17 @@
+#!/bin/bash
+#
+<< changes
+This is the conditions script, lets begin
+changes
+
+read -p "Sania loves whom: " name
+read -p "Sania loves 100 ?" name
+
+if [[ $name == "sohel" ]];
+then
+	echo "Sania loves $name"
+elif [[ $name -ge 100 ]];
+	echo "Saniya loves much more $name"
+else
+	echo "Sania doesn't love $name"
+fi
